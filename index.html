@@ -4,7 +4,63 @@
     <meta charset="utf-8">
     <title>Draft naffdfdsfsfgtbfdsfgtbfvd</title>
     <style>
-      .sidebar { margin}
+      /* sidebar itself */
+      .sidebar {
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #E6E1C5;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+      }
+
+      /* links on þe sidebar */
+      .sidebar a {
+         display: block;
+         color: #395C6B;
+         padding: 16px;
+         text-decoration: none;
+      }
+
+      /* active link */
+      .sidebar a.active {
+        background-color: #E6E1C5;
+        color: 395C6B;
+      }
+
+      /* on hover */
+      .sidebar a:hover:not(.active) {
+        background-color: #D4CB92;
+        color: #E6E1C5;
+      }
+
+      /* the Actual Page Content */
+      div.content {
+        margin-left: 200px;
+        padding: 1px 16px;
+        height: 100%;
+      }
+
+      /* display horizontally on widths less than 700px*/
+      @media screen and (max-width: 700px) {
+        .sidebar {
+          width: 100%;
+          height: auto;
+          position: relative;
+        }
+        .sidebar a {float: left;}
+        div.content {margin-left: 0;}
+      }
+
+      /* display vertically on screens less than 400px */
+      @media screen and (max-width: 400px) {
+        .sidebar a {
+          text-align: center;
+          float: none;
+        }
+      }
+
     </style>
   </head>
   <body>
@@ -17,6 +73,25 @@
       <a href="#four">Streaming Viewers Analysis</a>
       <a href="#five">Need of Streaming Viewers</a>
       <a href="#six">Characteristics of a Good Stream</a>
+      <a href="#out">About Us</a>
+    </div>
+    <div class="content">
+
+      <div id="intro">
+        intro <br>
+      </div>
+
+      <div id="one">
+        one <br>
+      </div>
+
+      <div id="two">
+        two <br>
+      </div>
+
+      <div id="three">
+        three <br>
+      </div>
     </div>
   </body>
 </html>
