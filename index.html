@@ -10,6 +10,8 @@
         padding: 0;
         width: 200px;
         background-color: #E6E1C5;
+        border-width: 2px;
+        border-color: #395C6B;
         position: fixed;
         height: 100%;
         overflow: auto;
@@ -32,7 +34,7 @@
       /* on hover */
       .sidebar a:hover:not(.active) {
         background-color: #D4CB92;
-        color: #E6E1C5;
+        color: #395C6B;
       }
 
       /* the Actual Page Content */
@@ -61,11 +63,16 @@
         }
       }
 
+      .content {
+        background-color: #ADB9E3;
+      }
+
+    h1 { font-size: 24px, }
     </style>
   </head>
   <body>
     <div class="sidebar">
-      <a class="#active" href="home">Home</a>
+      <a class="#active" href="#home">Home</a>
       <a href="#intro">Introduction</a>
       <a href="#one">Streaming Definition</a>
       <a href="#two">Streaming Types</a>
@@ -78,7 +85,8 @@
     <div class="content">
 
       <div id="intro">
-        intro <br>
+        <h1>intro</h1>
+        <p> <br>
       </div>
 
       <div id="one">
