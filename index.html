@@ -4,14 +4,6 @@
     <meta charset="utf-8">
     <title>A-10-4 Group 2 - TLE Quarter 1 PBA</title>
     <link rel="stylesheet" href="gangnam style.css">
-    <script>
-    var d = new Date().getDay();
-    switch(d) {
-      case 0: document.getElementById('frog').innerHTML = "Sunday"
-    }
-
-    </script>
-
   </head>
   <body>
     <div class="sidebar">
@@ -28,7 +20,115 @@
     <div class="content">
 
       <div class="header">
+        <span id="frog"></span><span> – </span><span id="day"></span><span> </span><span id="month"></span><span> </span><span id="year"></span><span>, </span><span id="hour"></span><span>:</span><span id="min"></span><br>
+        <span id="llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch"></span>
       </div>
+
+            <script>
+            var d = new Date()
+            switch(d.getDay()) {
+
+              case 0:
+              document.getElementById('frog').innerHTML = "Linggo / Sunday"
+              break;
+
+              case 1:
+              document.getElementById('frog').innerHTML = "Lunes / Monday"
+              break;
+
+              case 2:
+              document.getElementById('frog').innerHTML = "Martes / Tuesday"
+              break;
+
+              case 3:
+              document.getElementById('frog').innerHTML = "Miyerkules / Wednesday"
+              break;
+
+              case 4:
+              document.getElementById('frog').innerHTML = "Huwebes / Thursday"
+              break;
+
+              case 5:
+              document.getElementById('frog').innerHTML = "Biyernes / Friday"
+              break;
+
+              case 6:
+              document.getElementById('frog').innerHTML = "Sabado / Saturday"
+              break;
+
+              default:
+              document.getElementById('frog').innerHTML = "When?"
+            }
+
+document.getElementById('day').innerHTML = d.getDate();
+
+switch(d.getMonth()) {
+
+  case 0:
+  document.getElementById('month').innerHTML = "January"
+  break;
+
+  case 1:
+  document.getElementById('month').innerHTML = "February"
+  break;
+
+  case 2:
+  document.getElementById('month').innerHTML = "March"
+  break;
+
+  case 3:
+  document.getElementById('month').innerHTML = "April"
+  break;
+
+  case 4:
+  document.getElementById('month').innerHTML = "May"
+  break;
+
+  case 5:
+  document.getElementById('month').innerHTML = "June"
+  break;
+
+  case 6:
+  document.getElementById('month').innerHTML = "July"
+  break;
+
+  case 7:
+  document.getElementById('month').innerHTML = "August"
+  break;
+
+  case 8:
+  document.getElementById('month').innerHTML = "September"
+  break;
+
+  case 9:
+  document.getElementById('month').innerHTML = "October"
+  break;
+
+  case 10:
+  document.getElementById('month').innerHTML = "November"
+  break;
+
+  case 11:
+  document.getElementById('month').innerHTML = "December"
+  break;
+}
+
+document.getElementById('year').innerHTML = d.getFullYear();
+document.getElementById('hour').innerHTML = d.getHours();
+document.getElementById('min').innerHTML = d.getMinutes();
+
+var m = Math.ceil((Math.random())*16);
+switch(m) {
+  default:
+  document.getElementById('llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch').innerHTML = "I am not throwing away my shot!"
+  break;
+}
+
+      </script>
+
+
+
+
       <hr>
       <div id="intro">
         <h1>Introduction</h1>
@@ -43,7 +143,7 @@
       <ul>
       <li><p><b>On-Demand Streaming</b></p>
       <ul>
-      <li><p>It allows the audience or viewers to view their selected content whenever they want, with the ability to pause, fast-forward, rewind, or otherwise manipulate the media they're consuming.</li></p>
+      <li><p>It allows the audience or viewers to view their selected content whenever they want, with the ability to pause, fast-forward, rewind, or otherwise manipulate the media they're consuming.</p></li>
       </ul>
       </li>
       <li><p><b>Live Streaming</b></p>
