@@ -2,9 +2,20 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Draft naffdfdsfsfgtbfdsfgtbfvd</title>
+    <title>A-10-4 Group 2 - TLE Quarter 1 PBA</title>
     <style>
 
+      :root { /* colors sorted from brightest to darkest */
+        --i: #e1f3be;
+        --ii: #b9d77f;
+        --iii: #94ba6c;
+        --iv: #6f9c59;
+        --v: #4a7f45;
+        --vi: #256132;
+        --vii: #00441f;
+      }
+
+      /* Inter font */
       @font-face {
        font-family: InterV;
        src: url(Inter.var.woff2);
@@ -15,8 +26,9 @@
         margin: 0;
         padding: 0;
         width: 200px;
-        background-color: #B9D77F;
-        border: 4px dotted #00441f;
+        background-color: var(--ii);
+        border: 4px solid var(--vii);
+        box-shadow: 0px 0px 8px var(--v);
         position: fixed;
         height: 100%;
         overflow: auto;
@@ -25,7 +37,7 @@
       /* links on þe sidebar */
       .sidebar a {
          display: block;
-         color: #00441f;
+         color: var(--vii);
          padding: 16px;
          font-size: 20px;
          text-decoration: none;
@@ -35,26 +47,33 @@
 
       /* active link */
       .sidebar a.active {
-        background-color: #00441f;
-        color: #B9D77F;
+        background-color: var(--vii);
+        color: var(--ii);
+        text-shadow: 0px 0px 4px var(--i);
         text-align: center;
         font-variant: small-caps;
+        font-weight: 500;
       }
 
       /* on hover */
       .sidebar a:hover:not(.active) {
-        background-color: #00441f;
-        color: #B9D77F;
+        background-color: var(--vii);
+        color: var(--ii);
+        text-shadow: 0px 0px 4px var(--i);
         text-align: center;
         font-variant: small-caps;
+        font-weight: 500;
       }
 
       /* the Actual Page Content */
       div.content {
         margin-left: 200px;
-        padding: 1px 16px;
+        padding: 1% 5%;
         height: 100%;
       }
+
+      /* amogus */
+
 
       /* display horizontally on widths less than 700px*/
       @media screen and (max-width: 700px) {
@@ -75,11 +94,16 @@
         }
       }
 
-    h1 { font-size: 24px; color: #e1f3be; background-color: #00441f; text-align: center; padding: 4px; border: 4px dotted #94BA6C; text-shadow: 0px 2px #4A7F45; font-variant: small-caps; }
-    p { font-size: 16px; color: #00441f; text-align: justify;}
-    body { background-color: #e1f3be; }
+    h1 { font-size: 24px; color: var(--i); background-color: var(--vii); text-align: center; padding: 6px; border: 4px dotted var(--iii); text-shadow: 0px 0px 6px var(--iii); font-variant: small-caps; font-weight: 700;}
 
-    html { font-family: "InterV", "Helvetica Neue", "Helvetica", "Trebuchet MS", sans-serif; }
+    h2 { font-size: 24px; color: var(--vii); text-align: center;  text-shadow: 0px 0px 4px var(--iv); font-weight: 600; }
+
+    p { font-size: 16px; color: var(--vii); text-align: justify;}
+    b { text-shadow: 0px 0px 3px var(--iii); }
+    body { background-color: var(--i); }
+    .amogus { font-size: 6969px; }
+
+    html { font-family: InterV, "InterV", "Inter V", "Helvetica Neue", "Helvetica", "Trebuchet MS", sans-serif; padding: 0% 10%; }
 
     </style>
   </head>
@@ -87,27 +111,46 @@
     <div class="sidebar">
       <a href="#intro">Introduction</a>
       <a href="#one">Streaming Definition</a>
-      <a href="#two">Streaming Types</a>
+      <a href="#two">Streaming Content Types</a>
       <a href="#three">Streaming Platforms</a>
       <a href="#four">Streaming Viewers Analysis</a>
       <a href="#five">Need of Streaming Viewers</a>
       <a href="#six">Characteristics of a Good Stream</a>
-      <a href="#out">About Us</a>
+      <a href="#ref">References</a>
+      <a href="#about">About Us</a>
     </div>
     <div class="content">
 
       <div id="intro">
-        <h1><b>Introduction</b></h1>
+        <h1>Introduction</h1>
           <p> thing </p>
       </div>
 
       <div id="one">
-        one <br>
-
+        <h1>Part I: Definition of Streaming</h1>
+        <p><b>Streaming</b> can be defined as the playback of a multimedia file
+      that can be played without the need to download it, with the use of the
+      internet. There are 2 types of streaming media:</p>
+      <ul>
+      <li><p><b>On-Demand Streaming</b></p>
+      <ul>
+      <li><p>It allows the audience or viewers to view their selected content whenever they want, with the ability to pause, fast-forward, rewind, or otherwise manipulate the media they're consuming.</li></p>
+      </ul>
+      </li>
+      <li><p><b>Live Streaming</b></p>
+      <ul>
+      <li><p>On the other hand, live streaming the opposite of the above, because whereas content for On-Demand Streaming is pre-recorded, content for Live Streaming is broadcasted in real time, hence the word "Live".</p>
+      </li>
+      <li><p>Usually, content for live Live Streaming cannot be played backwards, but some platforms for consuming said content allows for it.</p>
+      </li>
+      </ul>
+      </li>
+      </ul>
       </div>
 
       <div id="two">
-        two <br>
+        <h1>Part II: Types of Streaming Content</h1>
+        <
       </div>
 
       <div id="three">
