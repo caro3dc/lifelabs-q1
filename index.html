@@ -5,13 +5,18 @@
     <title>Draft naffdfdsfsfgtbfdsfgtbfvd</title>
     <style>
 
+      @font-face {
+       font-family: InterV;
+       src: url(https://github.com/rsms/inter/blob/master/docs/font-files/Inter.var.woff2);
+      }
+
       /* sidebar itself */
       .sidebar {
         margin: 0;
         padding: 0;
         width: 200px;
         background-color: #B9D77F;
-        border: 4px inset #00441f;
+        border: 4px dotted #00441f;
         position: fixed;
         height: 100%;
         overflow: auto;
@@ -24,18 +29,24 @@
          padding: 16px;
          font-size: 20px;
          text-decoration: none;
+         text-align: center;
+         font-variant: small-caps;
       }
 
       /* active link */
       .sidebar a.active {
         background-color: #00441f;
-        color: #E1F3BE;
+        color: #B9D77F;
+        text-align: center;
+        font-variant: small-caps;
       }
 
       /* on hover */
       .sidebar a:hover:not(.active) {
         background-color: #00441f;
-        color: #E1F3BE;
+        color: #B9D77F;
+        text-align: center;
+        font-variant: small-caps;
       }
 
       /* the Actual Page Content */
@@ -64,15 +75,16 @@
         }
       }
 
-    h1 { font-size: 24px; color: #e1f3be; background-color: #00441f; text-align: center; padding: 4px; border: 4px solid #94BA6C; text-shadow: 0px 2px #4A7F45; }
-    p { font-size: 16px; color: #00441f; }
+    h1 { font-size: 24px; color: #e1f3be; background-color: #00441f; text-align: center; padding: 4px; border: 4px dotted #94BA6C; text-shadow: 0px 2px #4A7F45; font-variant: small-caps; }
+    p { font-size: 16px; color: #00441f; text-align: justify;}
     body { background-color: #e1f3be; }
+
+    html { font-family: "InterV", "Helvetica Neue", "Helvetica", "Trebuchet MS", sans-serif; }
 
     </style>
   </head>
   <body>
     <div class="sidebar">
-      <a class="#active" href="#home">Home</a>
       <a href="#intro">Introduction</a>
       <a href="#one">Streaming Definition</a>
       <a href="#two">Streaming Types</a>
@@ -85,9 +97,8 @@
     <div class="content">
 
       <div id="intro">
-        <h1><b>intro<b></h1>
-          <p> Gallia est omnis divisa in partes tres </p><br>
-          <p> wip </p>
+        <h1><b>Introduction</b></h1>
+          <p> thing </p>
       </div>
 
       <div id="one">
