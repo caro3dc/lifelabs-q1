@@ -4,7 +4,120 @@
 <head>
     <meta charset="utf-8">
     <title>A-10-4 Group 2 - TLE Quarter 1 PBA</title>
-    <link rel="stylesheet" href="gangnam style.css">
+    <style>
+    :root { /* colors sorted from brightest to darkest */
+      --i: #e1f3be;
+      --ii: #b9d77f;
+      --iii: #94ba6c;
+      --iv: #6f9c59;
+      --v: #4a7f45;
+      --vi: #256132;
+      --vii: #00441f;
+    }
+
+    /* Inter font */
+    @font-face {
+     font-family: InterV;
+     src: url(Inter.var.woff2);
+    }
+
+    /* sidebar itself */
+    .sidebar {
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: var(--ii);
+      border: 4px solid var(--vii);
+      box-shadow: 0px 0px 8px var(--v);
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+    }
+
+    /* links on þe sidebar */
+    .sidebar a {
+       display: block;
+       color: var(--vii);
+       padding: 16px;
+       font-size: 20px;
+       text-decoration: none;
+       text-align: center;
+       font-variant: small-caps;
+    }
+
+    /* active link */
+    .sidebar a.active {
+      background-color: var(--vii);
+      color: var(--ii);
+      text-shadow: 0px 0px 4px var(--i);
+      text-align: center;
+      font-variant: small-caps;
+      font-weight: 500;
+    }
+
+    /* on hover */
+    .sidebar a:hover:not(.active) {
+      background-color: var(--vii);
+      color: var(--ii);
+      text-shadow: 0px 0px 4px var(--i);
+      text-align: center;
+      font-variant: small-caps;
+      font-weight: 500;
+    }
+
+    /* the Actual Page Content */
+    div.content {
+      margin-left: 200px;
+      padding: 1% 5%;
+      height: 100%;
+    }
+
+    /* amogus */
+
+    /* display horizontally on widths less than 700px */
+    @media screen and (max-width: 700px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+      .sidebar a {float: left;}
+      div.content {margin-left: 0;}
+    }
+
+    /* display vertically on screens less than 400px */
+    @media screen and (max-width: 400px) {
+      .sidebar a {
+        text-align: center;
+        float: none;
+      }
+    }
+
+    h1 { font-size: 24px; color: var(--i); background-color: var(--vii); text-align: center; padding: 6px; border: 4px solid var(--iii); text-shadow: 0px 0px 6px var(--iii); font-variant: small-caps; font-weight: 700;}
+
+    h2 { font-size: 24px; color: var(--vii); text-align: center;  text-shadow: 0px 0px 4px var(--iv); font-weight: 600; }
+
+    h3 { font-size: 20px; color: var(--vii); text-align: justify; text-shadow: 0px 0px 4px var(--iv); font-weight: 600; }
+
+    h4 { font-size: 16px; color: var(--vii); text-align: justify;  font-weight: 600; }
+
+    p, span, a, li, ul { font-size: 16px; color: var(--vii); text-align: justify;}
+    b { text-shadow: 0px 0px 3px var(--iii); }
+    body { background-color: var(--i); }
+    hr { color: var(--v); }
+    red { color: #9c0000; }
+    blue { color: #0010f0; }
+    .cit { vertical-align: super; font-size: 10px; }
+    #ref {font-style: italic;}
+    .header { color: var(--vii); text-align: right; font-size: 12px;}
+    .amogus { font-size: 6969px; }
+    #glasgow {font-style: italic;}
+
+    q { font-style: italic; }
+
+    html { font-family: InterV, "InterV", "Inter V", "Helvetica Neue", "Helvetica", "Trebuchet MS", sans-serif; padding: 0% 10%; }
+
+    </style>
 </head>
 
 <body>
