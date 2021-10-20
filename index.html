@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>A-10-4 Group 2 - TLE Quarter 1 PBA</title>
     <link rel="stylesheet" href="gangnam style.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="sidebar">
-      <a href="#intro">Introduction</a>
-      <a href="#one">Streaming Definition</a>
-      <a href="#two">Streaming Content Types</a>
-      <a href="#three">Streaming Platforms</a>
-      <a href="#four">Streaming Viewers Analysis</a>
-      <a href="#five">Need of Streaming Viewers</a>
-      <a href="#six">Characteristics of a Good Stream</a>
-      <a href="#ref">References</a>
-      <a href="#about">About Us</a>
+        <a href="#intro">Introduction</a>
+        <a href="#one">Streaming Definition</a>
+        <a href="#two">Streaming Content Types</a>
+        <a href="#three">Streaming Platforms</a>
+        <a href="#four">Streaming Viewers Analysis</a>
+        <a href="#five">Need of Streaming Viewers</a>
+        <a href="#six">Characteristics of a Good Stream</a>
+        <a href="#ref">References</a>
+        <a href="#about">About Us</a>
     </div>
     <div class="content">
 
-      <div class="header">
-        <span id="frog"></span><span> – </span><span id="day"></span><span> </span><span id="month"></span><span> </span><span id="year"></span><span>, </span><span id="hour"></span><span>:</span><span id="min"></span><br>
-        <span id="llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch"></span>
-      </div>
+        <div class="header">
+            <span id="frog"></span><span> – </span><span id="day"></span><span> </span><span id="month"></span><span> </span><span id="year"></span><span>, </span><span id="hour"></span><span>:</span><span id="min"></span><br>
+            <span id="glasgow"></span>
+        </div>
 
-            <script>
+        <script>
             var d = new Date()
             switch(d.getDay()) {
 
@@ -119,74 +121,236 @@ document.getElementById('min').innerHTML = d.getMinutes();
 
 var m = Math.ceil((Math.random())*16);
 switch(m) {
-  default:
-  document.getElementById('llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch').innerHTML = "I am not throwing away my shot!"
+  case 1:
+  document.getElementById('glasgow').innerHTML = "« I am not throwing away my shot! » - Lin-Manuel Miranda"
+  break;
+
+  case 2:
+  document.getElementById('glasgow').innerHTML = "Example quote 2"
   break;
 }
+        </script>
 
-      </script>
+        <hr>
+        <div id="intro">
+            <h1>Introduction</h1>
+            <p> thing </p>
+        </div>
 
-
-
-
-      <hr>
-      <div id="intro">
-        <h1>Introduction</h1>
-          <p> thing </p>
-      </div>
-
-      <div id="one">
-        <h1>Part I: Definition of Streaming</h1>
-        <p><b>Streaming</b> can be defined as the playback of a multimedia file
-      that can be played without the need to download it, with the use of the
-      internet. There are 2 types of streaming media:</p>
-      <ul>
-      <li><p><b>On-Demand Streaming</b></p>
-      <ul>
-      <li><p>It allows the audience or viewers to view their selected content whenever they want, with the ability to pause, fast-forward, rewind, or otherwise manipulate the media they're consuming.</p></li>
-      </ul>
-      </li>
-      <li><p><b>Live Streaming</b></p>
-      <ul>
-      <li><p>On the other hand, live streaming the opposite of the above, because whereas content for On-Demand Streaming is pre-recorded, content for Live Streaming is broadcasted in real time, hence the word "Live".</p>
-      </li>
-      <li><p>Usually, content for live Live Streaming cannot be played backwards, but some platforms for consuming said content allows for it.</p>
-      </li>
-      </ul>
-      </li>
-      </ul>
-      </div>
-
-      <div id="two">
-        <h1>Part II: Types of Streaming Content</h1>
-        <ul>
-          <li>
-            <p><b>On-Demand Streaming</b></p>
+        <div id="one">
+            <h1>Part I: Definition of Streaming</h1>
+            <p><b>Streaming</b> can be defined as the playback of a multimedia file that can be played without the need to download it, with the use of the internet. There are 2 types of streaming media:</p>
             <ul>
-              <li><p>Gaming Videos</p></li>
-              <li><p>Movies</p></li>
-              <li><p>TV Shows</p></li>
-              <li><p>Songs and Music Videos</p></li>
-              <li><p>Webcasts and Podcasts</p></li>
-              <li><p>etc.</p></li>
+                <li>
+                    <p><b>On-Demand Streaming</b></p>
+                    <ul>
+                        <li>
+                            <p>It allows the audience or viewers to view their selected content whenever they want, with the ability to pause, fast-forward, rewind, or otherwise manipulate the media they're consuming.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><b>Live Streaming</b></p>
+                    <ul>
+                        <li>
+                            <p>On the other hand, live streaming the opposite of the above, because whereas content for On-Demand Streaming is pre-recorded, content for Live Streaming is broadcasted in real time, hence the word "Live".</p>
+                        </li>
+                        <li>
+                            <p>Usually, content for live Live Streaming cannot be played backwards, but some platforms for consuming said content allows for it.</p>
+                        </li>
+                    </ul>
+                </li>
             </ul>
-          </li>
-          <li>
-            <p><b>Live Streaming</b></p>
+        </div>
+
+        <div id="two">
+            <h1>Part II: Types of Streaming Content</h1>
             <ul>
-            <li><p>Concerts</p></li>
-            <li><p>Gaming Tournaments</p></li>
-            <li><p>Q&A Shows</p></li>
-            <li><p>Other Live Events</p></li>
-          </ul>
-          </li>
-        </ul>
-      </div>
+                <li>
+                    <p><b>On-Demand Streaming</b></p>
+                    <ul>
+                        <li>
+                            <p>Gaming Videos</p>
+                        </li>
+                        <li>
+                            <p>Movies</p>
+                        </li>
+                        <li>
+                            <p>TV Shows</p>
+                        </li>
+                        <li>
+                            <p>Songs and Music Videos</p>
+                        </li>
+                        <li>
+                            <p>Webcasts and Podcasts</p>
+                        </li>
+                        <li>
+                            <p>etc.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><b>Live Streaming</b></p>
+                    <ul>
+                        <li>
+                            <p>Concerts</p>
+                        </li>
+                        <li>
+                            <p>Gaming Tournaments</p>
+                        </li>
+                        <li>
+                            <p>Q&A Shows</p>
+                        </li>
+                        <li>
+                            <p>Other Live Events</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
 
-      <div id="three">
-        <h1>Part III: Streaming Platforms</h1>
+        <div id="three">
+            <h1>Part III: Streaming Platforms</h1>
+            <ul>
+                <li>
+                    <p><b>On-Demand Streaming</b></p>
+                    <ul>
 
-      </div>
+                        <li>
+                            <p><a href="https://youtube.com" style="color: #c31711;">YouTube</a> - a video sharing service owned by Google.<a href="#ref1" class="cit">[1]</a></p>
+                        </li>
+
+                        <li>
+                            <p><a href="https://open.spotify.com" style="color: #0c592e;">Spotify</a> - a music streaming service.<a href="#ref2" class="cit">[2]</a></p>
+                        </li>
+
+                        <li>
+                            <p><a href="www.facebook.com" style="color:  #0748aa;">Facebook</a> - a social media service with video streaming as a secondary function.<a href="#ref3" class="cit">[3]</a></p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><b>Live Streaming</b></p>
+                    <ul>
+                        <li>
+                            <p><a href="https://twitch.tv" style="color: #541981;">Twitch</a> - a livestreaming service that focuses on video game streaming.<a href="#ref4" class="cit">[4]</a></p>
+                        </li>
+
+                        <li>
+                            <p><a href="https://www.facebook.com/live" style="color: #0748aa;">Facebook Live</a> - a livestreaming service offered by Facebook to its users.<a href="#ref5" class="cit">[5]</a></p>
+                        </li>
+
+                        <li>
+                            <p><a href="https://instagram.com" style="color: #ce1867;">Instagram</a> - a photo and video sharing social media service<a href="#ref6" class="cit">[6]</a> that has livestreaming capabilities.<a href="#ref7" class="cit">[7]</a></p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div id="four">
+            <h1>Part IV: Streaming Viewers' Analysis</h1>
+            <h2>How Do I Determine What Content is Suitable for Different Types of Audiences?</h2>
+            <h3>a. Valorant</h3>
+
+            <p><b>VALORANT</b> is a 1st person shooting game that was officially released on June 2, 2021. It was developed and published by Riot Games. Before release, the title was called project A as a code name which began a closed beta period on April 7, 2020.<a href="#ref8" class="cit">[8]</a><a href="#ref9" class="cit">[9]</a></p>
+
+            <p><q>Valorant has hit 14 million monthly active players after a year. Riot Games said that its first-person shooter Valorant has reached 14 million monthly active PC players and half a billion games played in its first year. Riot Games said it will expand the franchise to mobile.</q><a href="#ref10" class="cit">[10]</a></p>
+
+            <ul>
+               <li><p>According to the statistics, over 30% - 40% of the players are female, and 60% are male players.<a href="#ref11" class="cit">[11]</a></p></li>
+               <li>The minimum age to play VALORANT is 16. Those with Riot accounts that are under the age of 16 will not be able to download or play VALORANT.<a href="#ref12" class="cit">[12]</a></p></li>
+            </ul>
+
+            <h4>Opinion/Testimonial</h4>
+            <ul><li><q>I came from CSGO (highest rank was MG2). I have played Valorant since beta and have not stopped yet. Honestly, I find that there is a lot of complaining by the community more than the game deserves. Granted, I do feel the game was released too early but with everyone staying at home, I can see why the decision was made to launch. Overall, a very fun game. One exception is that unseemly teammates or trolls can really ruin the game for you. I suggest finding a group of friends to play with at your rank.</q><a href="#ref13" class="cit">[13]</a></li></ul>
+
+            <h3>b. Music Video</h3>
+            <p><q>A <b>music video</b> is a videotaped performance of a recorded popular song, usually accompanied by dancing and visual images interpreting the lyrics. Although the origins of music videos began with “musical short films” that first appeared in the 1920s, they really came into prominence in the 1980s when MTV created their channel around the medium and it changed how we received our music.</q><a href="#ref14" class="cit">[14]</a><br>
+            <ul><li>Example of a music video: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Link</a></li></ul></p>
+
+              <p>
+                According to a survey conducted in Italy in 2020, more women than men listened to music every day in their free time. As reported by the data, 38 percent of female respondents claimed to listen to music every day. By contrast, 35 percent of men did the same as of the survey period. Moreover, 13 percent of female interviewees said to never listen to music in their free time. Conversely, 10 percent of male respondents claimed to not listen to music at all as of 2020.<a href="#ref15" class="cit">[15]</a></p>
+
+                <p>
+                In 2015, online music videos in the United Kingdom started getting age ratings from the British Board of Film Classification (BBFC) in the same way films do, following a UK Government pilot. Of the 132 videos submitted to the BBFC so far, 56 are rated 12 and 53 classified 15. Only one video got an 18 certificate - Dizzee Rascal's <q>Couple Of Stack</q>.<a href="#ref16" class="cit">[16]</a>
+                </p>
+        </div>
+
+        <div id="ref">
+            <h1>References</h1>
+
+            <p id="ref1">
+                1. Hooker, L. (2016, February 1). How did Google become the world’s most valuable company? BBC News. <a href="https://www.bbc.com/news/business-35460398">https://www.bbc.com/news/business-35460398</a>.</p>
+
+            <p id="ref2">
+                2. Spotify UK revenues surge to almost £190m as mobile subscriptions take off. (2016, October 14). The Guardian. <a href="https://www.theguardian.com/media/2016/oct/14/spotify-uk-revenues-surge-to-almost-190m-as-mobile-subscriptions-take-off">https://www.theguardian.com/media/2016/oct/14/spotify-uk-revenues-surge-to-almost-190m-as-mobile-subscriptions-take-off</a>.</p>
+
+            <p id="ref3">
+                3. Facebook Stories puts a Snapchat clone above the News Feed. (n.d.). TechCrunch. <a href="https://techcrunch.com/2017/01/25/facebook-stories/">https://techcrunch.com/2017/01/25/facebook-stories/</a>.
+            </p>
+
+            <p id="ref4">
+                4. Ewalt, D. M. The ESPN Of Video Games. Forbes. <a href="https://www.forbes.com/sites/davidewalt/2013/11/13/the-espn-of-video-games/?sh=7d3433a03dd7">https://www.forbes.com/sites/davidewalt/2013/11/13/the-espn-of-video-games/?sh=7d3433a03dd7</a></p>
+
+            <p id="ref5">
+                5. Newton, C. (2016, January 28). Facebook rolls out live video streaming to everyone in the United States. The Verge. <a href="https://www.theverge.com/2016/1/28/10860932/facebook-live-streaming-video-periscope">https://www.theverge.com/2016/1/28/10860932/facebook-live-streaming-video-periscope</a>.</p>
+
+            <p id="ref6">
+                6. Instagram APKs. APKMirror. <a href="https://www.apkmirror.com/apk/instagram/instagram-instagram/">https://www.apkmirror.com/apk/instagram/instagram-instagram/</a>.</p>
+
+            <p id="ref7">
+                7. Warren, T. (2016, April 28). Instagram launches on Windows 10 Mobile, finally gets video support. The Verge. <a href="https://www.theverge.com/2016/4/28/11525396/instagram-windows-10-mobile-app">https://www.theverge.com/2016/4/28/11525396/instagram-windows-10-mobile-app</a>.</p>
+
+            <p id="ref8">
+              8. Goslin, A. (2020, March 2). Valorant: How Riot finally made something new. Polygon. <a href="https://www.polygon.com/2020/3/2/21158401/valorant-how-riot-games-made-something-new">https://www.polygon.com/2020/3/2/21158401/valorant-how-riot-games-made-something-new</a>.
+            </p>
+
+            <p id="ref9">
+              9. Webster, A. (2020, March 30). Riot’s shooter Valorant goes into beta on April 7th. The Verge. <a href="https://www.theverge.com/2020/3/30/21199452/valorant-multiplayer-shooter-riot-closed-beta-date">https://www.theverge.com/2020/3/30/21199452/valorant-multiplayer-shooter-riot-closed-beta-date</a>.</p>
+            ‌
+            <p id="ref10">
+              10. Valorant reaches 14M active players and 500M games played. (2021, June 2). VentureBeat. <a href="https://venturebeat.com/2021/06/02/valorant-reaches-14-million-active-players-and-500m-games-played">https://venturebeat.com/2021/06/02/valorant-reaches-14-million-active-players-and-500m-games-played</a>.
+            </p>
+
+            <p id="ref11">
+              11. How Riot Games will ensure that Valorant’s esports stars include women. (2021, June 14). VentureBeat. <a href="https://venturebeat.com/2021/06/14/how-riot-games-wants-to-ensure-that-valorants-esports-stars-include-women/">https://venturebeat.com/2021/06/14/how-riot-games-wants-to-ensure-that-valorants-esports-stars-include-women/</a>.
+            </p>
+
+            <p id="ref12">
+              12. Valorant Guide | gamepressure.com. (n.d.). Game Guides. <a href="https://guides.gamepressure.com/valorant/guide.asp?ID=5460">https://guides.gamepressure.com/valorant/guide.asp?ID=5460</a>.
+            </p>
+
+            <p id="ref13">
+              13. KimchiSupreme. (2020, August 22). Opinions on the game. [Online forum post]. Reddit. <a href="https://www.reddit.com/r/VALORANT/comments/iefhaw/comment/g2gscja/?utm_source=share&utm_medium=web2x&context=3">https://www.reddit.com/r/VALORANT/comments/iefhaw/comment/g2gscja/?utm_source=share&utm_medium=web2x&context=3</a>.
+            </p>
+
+            <p id="ref14">
+              14. – A Brief History Of Music Videos. (n.d.). <a href="https://yellowbrickstudiousa.com/soul-sessions-usa/the-music-video-industry/a-brief-history-of-music-videos">https://yellowbrickstudiousa.com/soul-sessions-usa/the-music-video-industry/a-brief-history-of-music-videos</a>.
+            </p>
+
+            <p id="ref15">
+              15. Italy: frequency of listening to music by gender 2020. (n.d.). Statista. <a href="https://www.statista.com/statistics/1097154/frequency-of-listening-to-music-in-italy-by-gender/">https://www.statista.com/statistics/1097154/frequency-of-listening-to-music-in-italy-by-gender/</a>.
+            </p>
+
+            <p id="ref16">
+              16. Age rating to be permanent feature on online music videos. (2015, August 18). BBC News. <a href="https://www.bbc.com/news/newsbeat-33969075">https://www.bbc.com/news/newsbeat-33969075</a>.
+            </p>
+
+            <p id="ref17">
+              17. Delfino, D. (n.d.). “What is Twitch?”: Here’s what you need to know about the world’s leading live-streaming platform for gamers. Business Insider. <a href="https://www.businessinsider.com/what-is-twitch?op=1">https://www.businessinsider.com/what-is-twitch?op=1</a>.
+            </p>
+
+            <p id="ref18">
+              18. Mediakix. (2019, July 26). Twitch Stats: 11 Twitch.tv Gaming Statistics Marketers Should Know. Mediakix. <a href="https://mediakix.com/blog/top-twitch-statistics-live-streaming-game-platform/">https://mediakix.com/blog/top-twitch-statistics-live-streaming-game-platform/</a>.
+            </p>
+
+            <p id="ref19">
+              19. Twitch traffic distribution by country 2021. (n.d.). Statista. <a href="https://www.statista.com/statistics/511558/twitch-traffic-by-country/">https://www.statista.com/statistics/511558/twitch-traffic-by-country/</a>.
+            </p>
+        </div>
+
     </div>
-  </body>
+</body>
+
 </html>
